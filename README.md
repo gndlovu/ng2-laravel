@@ -1,7 +1,26 @@
 # Ng2Laravel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-It's a front-end "Task Management Tool" that integrates with `https://github.com/gndlovu/LaravelApi` to retrieve, update and delete tasks.
+It's a basic front-end "Task Management Tool" that integrates with [LaravelApi](https://github.com/gndlovu/LaravelApi) to retrieve, update and delete tasks.
+
+In order to run this project, the following software is required:
+### Node.js and npm
+Node.js and Node's package manager, npm, are used for installing dependencies, running the build steps, and running tests.
+
+## Getting Started
+
+Begin by cloning the repository: 
+git clone https://github.com/gndlovu/ng2-laravel.git
+
+cd path/to/ng2-laravel
+
+se npm to get dependencies:
+`npm install`
+
+Open tasks.service.ts
+Change http://test.tmt/api/v1/ to http://{{api-url}}/api/v1/
+
+You can find and setup the API in [LaravelApi](https://github.com/gndlovu/LaravelApi).
 
 ## Development server
 
@@ -14,11 +33,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
