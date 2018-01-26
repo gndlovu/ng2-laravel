@@ -14,7 +14,7 @@ git clone https://github.com/gndlovu/ng2-laravel.git
 
 cd path/to/ng2-laravel
 
-se npm to get dependencies:
+Use npm to get dependencies:
 `npm install`
 
 Open tasks.service.ts
