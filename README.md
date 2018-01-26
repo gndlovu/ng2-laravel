@@ -17,7 +17,7 @@ cd path/to/ng2-laravel
 Use npm to get dependencies:
 `npm install`
 
-Open tasks.service.ts
+Open https://github.com/gndlovu/ng2-laravel/blob/master/src/app/task.service.ts
 Change http://test.tmt/api/v1/ to http://{{api-url}}/api/v1/
 
 You can find and setup the API in [LaravelApi](https://github.com/gndlovu/LaravelApi).
