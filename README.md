@@ -1,7 +1,7 @@
 # Ng2Laravel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-It's a basic front-end "Task Management Tool" that integrates with [LaravelApi](https://github.com/gndlovu/LaravelApi) to retrieve, update and delete tasks.
+It's a basic front-end "Task Management Tool" that integrates with [LaravelApi](https://github.com/gndlovu/laravel-api) to retrieve, update and delete tasks.
 
 In order to run this project, the following software is required:
 ### Node.js and npm
@@ -20,7 +20,7 @@ Use npm to get dependencies:
 Open https://github.com/gndlovu/ng2-laravel/blob/master/src/app/task.service.ts
 Change http://test.tmt/api/v1/ to http://{{api-url}}/api/v1/
 
-You can find and setup the API in [LaravelApi](https://github.com/gndlovu/LaravelApi).
+You can find and setup the API in [LaravelApi](https://github.com/gndlovu/laravel-api).
 
 ## Development server
 
